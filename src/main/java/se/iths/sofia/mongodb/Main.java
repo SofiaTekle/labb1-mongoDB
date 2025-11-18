@@ -15,7 +15,7 @@ import se.iths.sofia.dao.MovieDAOMongo;
 public class Main {
     public static void main(String[] args) {
 
-        String uri = "mongodb+srv://sofiatekle_db_user:LuIRMQlraQur6Idr@cluster0.nx7miq3.mongodb.net/?appName=Cluster0";
+        String uri = "mongodb+srv://<USERNAME>:<PASSWORD>@cluster0.nx7miq3.mongodb.net/?appName=Cluster0";
 
         try (MongoClient client = MongoClients.create(uri)) {
 
